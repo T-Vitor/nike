@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="shortcut icon" href="28134-5-nike-logo-thumb.png" type="image/x-icon">
+    <style>
+
+        body{
+           
+        }
+
+        header{
+           background-color: black;
+        }
+
+        header img{
+            display: block;
+            margin: auto;
+            max-width: 70px;
+            background-color: white;
+            border-radius: 180px;
+           
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .slideshow-container {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilo das imagens */
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Efeito de fade */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4 }
+    to { opacity: 1 }
+}
+
+/* Botões de navegação */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.somos{
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 0px 1px black;
+}
+
+.somos h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.somos p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small ;
+}
+
+.redes h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.redes{
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 0px 1px black;
+}
+
+.redes p{
+    text-align: center;
+}
+
+.redes a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.lojas {
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 0px 1px black;
+}
+
+.lojas h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.lojas p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small ;
+}
+
+footer{
+    background-color: black;
+    height: 20px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+       
+    </style>
+</head>
+<body>
+    <header>
+        <img src="nike-gif.gif" alt="">
+       
+    </header>
+    <h1>JUST DO IT.</h1>
+    <div class="slideshow-container">
+        <!-- Imagens do slideshow -->
+        <div class="slide fade">
+            <img src="banner-nike-app-08-03-desk.webp" alt="Imagem 1">
+        </div>
+        <div class="slide fade">
+            <img src="Banner-Join-Us-refresh-22-05-desktop.avif" alt="Imagem 2">
+        </div>
+        <div class="slide fade">
+            <img src="Banner-cosmic-speed-25-11-desk.avif" alt="Imagem 3">
+        </div>
+        <div class="slide fade">
+            <img src="Banner-Corinthians-03-09-desk.jpg" alt="Imagem 4">
+        </div>
+        <div class="slide fade">
+            <img src="banner-nike-app-08-03-desk.webp" alt="Imagem 5">
+        </div>
+        
+
+        <!-- Botões de navegação -->
+        <a class="prev" onclick="mudarSlide(-1)">&#10094;</a>
+        <a class="next" onclick="mudarSlide(1)">&#10095;</a>
+    </div>
+      <div class="somos">
+        <h2>QUEM SOMOS?</h2>
+        <p>Nike teve início em 1964, sendo fundada por Bill Bowerman e Phil Knight. Na época, a empresa se chamava Blue Ribbons Sports. De lá para cá não foi só o nome da marca que mudou, ela adentrou em nichos diferentes e passou a ser uma das marcas mais lembradas de itens esportivos.</p>
+      </div>
+      <div class="redes">
+        <h2>REDES SOCIAIS NIKE.</h2>
+        <p>SIGA A NIKE NO: <a href="https://www.instagram.com/nike?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM.</a> </p>
+        <p>SIGA A NIKE NO:
+            <a href="https://www.facebook.com/nike/">FACEBOOK.</a>
+        </p>
+        <p>SIGA A NIKE NO:
+            <a href="https://www.youtube.com/user/NIKE">YOUTUBE.</a>
+        </p>
+      </div>
+      <div class="lojas">
+        <h2>LOJAS NIKE.</h2>
+        <p> A empresa tem aproximadamente 38.000 funcionários no mundo (e mais de 950.000 trabalhadores indiretos que estão empregados nas fábricas contratadas), opera mais de 350 outlets próprios (Nike Factory Outlets), além de aproximadamente 420 lojas Niketown, NikeWomen e Nike Clearance, tendo seus produtos vendidos em 170 ...
+  
+</p>
+      </div>
+
+      <footer>
+        <p> VP Digital - Todos os direitos Reservados - 2024@</p>
+      </footer>
+
+
+
+    
+    <script src="nike.js"></script>
+</body>
+</html>
